@@ -2,21 +2,21 @@
 	name = ulrikl
 	email = ulrikl@pagero.com
 [alias]
-       co = checkout
-       st = status
-       ci = commit
-       br = branch
-       outgoing = log @{u}..
-       incoming = "!git remote update -p; git log ..@{u}"
-       lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	co = checkout
+	st = status
+	ci = commit
+	br = branch
+	outgoing = log @{u}..
+	incoming = "!git remote update -p; git log ..@{u}"
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 [color]
-       ui = true
+	ui = true
 [github]
-       user = ulejon
-       email = ulrik.lejon@gmail.com
+	user = ulejon
+	email = ulrik.lejon@gmail.com
 [core]
 	excludesfile = /Users/ulrikh/.gitexclude
-       editor = mvim
+	editor = "mvim -f"
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
