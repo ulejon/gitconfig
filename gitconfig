@@ -16,7 +16,7 @@
 	email = ulrik.lejon@gmail.com
 [core]
 	excludesfile = /Users/ulrikh/.gitexclude
-	editor = "mvim -f"
+	editor = "subl -w"
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -25,3 +25,5 @@
 	trustExitCode = true
 [merge]
 [color "diff"]
+[merge]
+	renamelimit = 3652
