@@ -28,4 +28,4 @@
 [merge]
 	renamelimit = 3652
 [push]
-	default = tracking
+	default = current
