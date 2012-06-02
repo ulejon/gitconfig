@@ -1,6 +1,6 @@
 [user]
 	name = ulrikl
-	email = ulrikl@pagero.com
+	email = ulrik.lejon@gmail.com
 [alias]
 	co = checkout
 	st = status
@@ -16,10 +16,6 @@
 	email = ulrik.lejon@gmail.com
 [core]
 	excludesfile = ~/.gitexclude
-	editor = "gedit -w"
-[merge]
-[color "diff"]
-[merge]
-	renamelimit = 3652
+	editor = "subl -w"
 [push]
 	default = current
