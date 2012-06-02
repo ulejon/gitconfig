@@ -1,6 +1,6 @@
 [user]
 	name = ulrikl
-	email = ulrikl@pagero.com
+	email = 
 [alias]
 	co = checkout
 	st = status
@@ -15,16 +15,8 @@
 	user = ulejon
 	email = ulrik.lejon@gmail.com
 [core]
-	excludesfile = /Users/ulrikh/.gitexclude
+	excludesfile = ~/.gitexclude
 	editor = "subl -w"
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[merge]
-[color "diff"]
 [merge]
 	renamelimit = 3652
 [push]
