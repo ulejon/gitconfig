@@ -15,24 +15,11 @@
 	user = ulejon
 	email = ulrik.lejon@gmail.com
 [core]
-	excludesfile = 'C:/Users/ulle/.gitexclude'
-	#editor = "subl -w"
-	editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+	excludesfile = ~/.gitexclude
+	editor = "gedit -w"
+[merge]
 [color "diff"]
-[diff]
-	tool = diffmerge
-[difftool]
-	prompt = false
-[difftool "diffmerge"]
-	cmd = 'C:/Program Files/SourceGear/Common/DiffMerge/sgdm.exe' --title1=Old --title2=New $LOCAL $REMOTE
 [merge]
 	renamelimit = 3652
-	tool = diffmerge	
-[mergetool]
-	prompt = false
-[mergetool "diffmerge"]
-	cmd = 'C:/Program Files/SourceGear/Common/DiffMerge/sgdm.exe' --merge --result=$MERGED --title1=Mine --title2=Merged --title3=Theirs $LOCAL $BASE $REMOTE
-	trustExitCode = true
-	keepBackup = false	
 [push]
 	default = current
