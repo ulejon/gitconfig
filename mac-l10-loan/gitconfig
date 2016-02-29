@@ -15,7 +15,7 @@
 	user = ulejon
 	email = ulrik.lejon@gmail.com
 [core]
-	excludesfile = ~/.gitexclude
+	excludesfile = /Users/ulrik/.gitexclude
 	editor = "subl -w"
 [merge]
 	renamelimit = 3652
