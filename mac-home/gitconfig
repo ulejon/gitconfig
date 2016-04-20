@@ -1,0 +1,29 @@
+[user]
+	name = ulrikl
+	email = ulrik.lejon@gmail.com
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	br = branch
+	outgoing = log @{u}..
+	incoming = "!git remote update -p; git log ..@{u}"
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[color]
+	ui = true
+[github]
+	user = ulejon
+	email = ulrik.lejon@gmail.com
+[core]
+	excludesfile = /Users/ulrik/.gitexclude
+	editor = "subl -w"
+[merge]
+	renamelimit = 3652
+[push]
+	default = current
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
