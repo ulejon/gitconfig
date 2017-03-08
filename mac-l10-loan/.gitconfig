@@ -15,15 +15,15 @@
 	user = ulejon
 	email = ulrik.lejon@gmail.com
 [core]
-	excludesfile = /Users/ulrik/.gitexclude
-	editor = "subl -w"
+	excludesfile = ~/.gitexclude
+	editor = "atom -w"
 [merge]
 	renamelimit = 3652
 [push]
 	default = current
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
