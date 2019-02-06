@@ -22,6 +22,5 @@ knownHosts
 lib_managed/
 src_managed/
 boot/
-media/
 logs/
 .DS_Store
