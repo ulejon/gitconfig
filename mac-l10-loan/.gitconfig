@@ -1,6 +1,6 @@
 [user]
 	name = Ulrik Lejon
-	email = ulrik.lejon@mollyware.se
+	email = ulrik.lejon@gmail.com
 [alias]
 	co = checkout
 	st = status
@@ -23,7 +23,10 @@
 	default = current
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
+	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[credential]
+    helper = !aws codecommit credential-helper $@
+    usehttppath = true
