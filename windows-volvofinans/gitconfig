@@ -16,7 +16,7 @@
         user = ulejon
         email = ulrik.lejon@gmail.com
 [core]
-        excludesfile = ~/.gitexclude
+        excludesfile = /home/dfc1012/.gitexclude
         editor = "nano -w"
 [merge]
         renamelimit = 3652
